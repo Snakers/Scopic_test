@@ -1,0 +1,17 @@
+Notes:
+1. I edit stroage Client API add some functions i don't know if it's allowed or not.
+2. Broadcast has map of endpoints endpoints associated with vector of connections like the image broadcast could have multiple connections. 
+3. there is a bug reciving the add-provdier which i couldn't handle it because time.
+4. some of code and functions inconsistant but not that much. and some functions are left used.
+5. the task mentioned that i should work on tradding-aggregator and trading-brodcaster-server only that's why i missed the symbolname implmentation. 
+
+The starting up:
+1. start all apps.
+2. add-aggregator
+3- add-provider.
+4. subscribe to a channel it will get the data back.
+5. we can push to 9000 port from "websocket client" on browser for BA.
+6. Simillarly push to 9100 port from "websocket client" on browser for TA.
+7. BA already talks to TA
+
+Thank you so much i hope lesting from you soon :)
